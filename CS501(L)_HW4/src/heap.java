@@ -47,6 +47,9 @@ public class heap {
 	public static void main(String[] args) {
 		int[] array = { 10, 15, 8, 12, 5, 2, 20, 7, 18 };
 		System.out.println("Original input array : " + Arrays.toString(array));
+		
+		
+		System.out.println("This is to check git pull");
 		heapSort(array);
 		System.out
 				.println("The final sorted array after performing the Heapsort algorithm : "
